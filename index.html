@@ -6,11 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="/styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-<h1>Hello HTML!</h1>
-<img src="img/learn-hiragana-chart-busuu.jpg" alt="hiragana">
+<body style="background-color:rgb(230, 165, 1)">
+<h1>Hello, this is my first website :P. I am going to start with my bio.</h1>
+
+<h2>Navigation</h2>
+<a href=#bio>Biography</a>
+<a href=#hobby>Hobbies</a>
+<a href=#memes>Memes</a>
+<a href=#feedbackForm>Feedback form</a>
+
+<h2 id="bio">Bio</h2>
+<p>My name is Vladyslav. I am a student of the faculty of the international relations<br>
+I joined to the course in order to develop myself as a IT-specialist. I hope I will be able <br>
+to learn a lot of new things and strengthen my tech skills.<br>
+<br>
+<b>My LinkedIn</b> <a href="https://www.linkedin.com/in/vladyslav-khahai-284b36222/" target="_blank">can be found there</a>
+</p>
+
+<h2 id="hobby">Hobbies</h2>
+<ul>
+    <li>Playing the musicial instruments: <b>guitar, piano, ukulele and violin</b></li>
+    <li>Reading</li>
+    <li>Coding</li>
+    <li>Volunteering</li>
+</ul>
+
+<h2 id="memes">Some cool IT-memes</h2>
+<img src="/img/photo_2022-06-14_12-47-57.jpg" alt="cat1">
+<img src="/img/photo_2022-06-24_12-37-18.jpg" alt="cat2">
 </body>
 
+<div>
+<h2 id="feedbackForm">Leave your feedback by filling the form</h2>
+<form action="">  `
+        <input placeholder="Your name" type="text" id="name" required>
+    <p></p>
+    <label for="1box">
+        <input id='1box' type="checkbox" name="checkboxes">Did you enjoy the page?
+    </label>
+
+    <label for="2box">
+        <input id='2box' type="checkbox" name="checkboxes">Are you happy?
+    </label>
+    <h2 style="font-weight: 700">Did you enjoy this time?</h2>
+    <label for="1radio">
+        <input id='1radio' type="radio" name="radios">Absolutely
+    </label>
+
+    <label for="2radio">
+        <input id='2radio' type="radio" name="radios">Not really
+    </label>
+</form>
+</div>
 </html>
